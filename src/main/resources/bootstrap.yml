@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo-client    # Ищет demo-client.yml в Git
+  cloud:
+    config:
+      uri: http://localhost:8888
+      profile: default
